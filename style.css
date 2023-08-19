@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.pad-5{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.padtb{
+    padding-top: 15px;
+}
+
+.big-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+}
+
+.bthin{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.7rem;
+    opacity: 0.8;
+}
+.blue-link{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #06c;
+}
+.blue-link:hover{
+    text-decoration: underline ;
+}
+
+.dbl-links{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+/* Navigation bar */
+nav{
+    background-color: white;
+    opacity: 0.8;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.logo{
+    height: 50px;
+}
+.logo:hover {
+    cursor: pointer;
+}
+.nav-link{
+    text-decoration: none;
+    color: black;
+    opacity: 0.7;
+    font-family: 'Roboto', sans-serif;
+}
+.nav-link:hover{
+    opacity: 1;
+}
+
+.search{
+    height: 20px;
+}
+.search:hover{
+    cursor: pointer;
+}
+/* Top contents */
+.top-container{
+    background-image: url(images/start-frame.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.large-content{
+    width: 600px;
+    text-align: center;
+    padding-top: 3rem;
+    cursor: pointer;
+}
+/* Second section */
+
+.mac{
+    background-image: url(images/macbook-2.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.iphone {
+    background-image: url(images/iphone14-2.jpg);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
