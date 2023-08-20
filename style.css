@@ -8,7 +8,19 @@
     padding-bottom: 20px;
 }
 .padtb{
-    padding-top: 15px;
+    padding-top: 2rem;
+}
+.pad-1rem{
+    padding-top: 1rem;
+}
+.padtop-1{
+    padding-top: 1rem;
+}
+.dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .big-text{
@@ -29,8 +41,20 @@
     font-size: 1.4rem;
     color: #06c;
 }
+
 .blue-link:hover{
     text-decoration: underline ;
+}
+
+.row-link {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #2997ff;
+}
+.row-link:hover{
+    text-decoration: underline;
 }
 
 .dbl-links{
@@ -38,6 +62,19 @@
     justify-content: center;
     gap: 5rem;
 }
+.dbl-links2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.med-text{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.7rem;
+}
+
+
 /* Navigation bar */
 nav{
     background-color: white;
@@ -107,4 +144,106 @@ nav{
     width: 100%;
     display: flex;
     justify-content: center;
+}
+/* Rows */
+.row-text {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+}
+
+.row-textblack{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.row-textgray{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6e6e73;
+}
+.vr-logo{
+    width: 200px;
+}
+.tradein-img{
+    width: 150px;
+}
+.card-logo{
+    width: 110px;
+}
+
+.rows{
+    display: flex;
+    height: 580px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+.row1{
+    background-image: url(images/iphone14black-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.row2{
+    background-image: url(images/ipad-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.row3{
+    background-image: url(images/watch-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.row4{
+    background-image: url(images/virtualr-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: cover;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.row5{
+    background-image: url(images/tradeinpromo-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+.row6 {
+    background-image: url(images/card_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1rem;
+    padding-top: 1rem;
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
 }
