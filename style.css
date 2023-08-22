@@ -113,8 +113,7 @@ nav{
 }
 /* Top contents */
 .top-container{
-    background-image: url(images/start-frame.jpg);
-    background-repeat: no-repeat;
+    background: url(images/startframe.jpeg) no-repeat center center/cover;
     height: 80vh;
     width: 100%;
     display: flex;
@@ -129,8 +128,7 @@ nav{
 /* Second section */
 
 .mac{
-    background-image: url(images/macbook-2.jpg);
-    background-repeat: no-repeat;
+    background: url(images/macbook.jpeg) no-repeat center center/cover;
     height: 80vh;
     width: 100%;
     display: flex;
@@ -138,7 +136,7 @@ nav{
 }
 
 .iphone {
-    background-image: url(images/iphone14-2.jpg);
+    background: url(images/iphone14.jpeg) no-repeat center center/cover;
     background-repeat: no-repeat;
     height: 80vh;
     width: 100%;
@@ -181,9 +179,7 @@ nav{
     gap: 1rem;
 }
 .row1{
-    background-image: url(images/iphone14black-2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(images/iphone14black.jpeg) no-repeat center center/cover;
     margin-left: 1rem;
     padding-top: 1rem;
     width: 100%;
@@ -191,9 +187,7 @@ nav{
     text-align: center;
 }
 .row2{
-    background-image: url(images/ipad-2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(images/ipad.jpeg) no-repeat center center/cover;
     margin-right: 1rem;
     padding-top: 1rem;
     width: 100%;
@@ -201,10 +195,7 @@ nav{
     text-align: center;
 }
 .row3{
-    background-image: url(images/watch-2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: cover;
+    background: url(images/watch.jpeg) no-repeat center center/cover;
     margin-left: 1rem;
     padding-top: 1rem;
     width: 100%;
@@ -212,10 +203,7 @@ nav{
     text-align: center;
 }
 .row4{
-    background-image: url(images/virtualr-2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: cover;
+    background: url(images/virtualr.jpeg) no-repeat center center/cover;
     margin-right: 1rem;
     padding-top: 1rem;
     padding-bottom: 3rem;
@@ -228,9 +216,7 @@ nav{
     align-items: center;
 }
 .row5{
-    background-image: url(images/tradeinpromo-2.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(images/tradeinpromo.jpeg) no-repeat center center/cover;
     margin-left: 1rem;
     padding-top: 1rem;
     width: 100%;
@@ -238,9 +224,7 @@ nav{
     text-align: center;
 }
 .row6 {
-    background-image: url(images/card_bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: url(images/creditcard.jpeg) no-repeat center center/cover;
     margin-right: 1rem;
     padding-top: 1rem;
     width: 100%;
