@@ -1,233 +1,271 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.pad-5{
-    padding-top: 5px;
-    padding-bottom: 20px;
+.pad-5 {
+  padding-top: 5px;
+  padding-bottom: 20px;
 }
-.padtb{
-    padding-top: 2rem;
+.padtb {
+  padding-top: 2rem;
 }
-.pad-1rem{
-    padding-top: 1rem;
+.pad-1rem {
+  padding-top: 1rem;
 }
-.padtop-1{
-    padding-top: 1rem;
+.padtop-1 {
+  padding-top: 1rem;
 }
-.dflex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
+.dflex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
 }
-.primary-link{
-    color: #06c;
-}
-
-.big-text{
-    font-family: 'Roboto', sans-serif;
-    font-size: 4rem;
+.primary-link {
+  color: #06c;
 }
 
-.bthin{
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1.7rem;
-    opacity: 0.8;
-}
-.blue-link{
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    font-weight: 400;
-    font-size: 1.4rem;
-    color: #06c;
+.big-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
 }
 
-.blue-link:hover{
-    text-decoration: underline ;
+.bthin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  opacity: 0.8;
+}
+.blue-link {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #06c;
+}
+
+.blue-link:hover {
+  text-decoration: underline;
 }
 
 .row-link {
-    text-decoration: none;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    color: #2997ff;
+  text-decoration: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #2997ff;
 }
-.row-link:hover{
-    text-decoration: underline;
+.row-link:hover {
+  text-decoration: underline;
 }
 
-.dbl-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
+.dbl-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
 .dbl-links2 {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.med-text{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 2.7rem;
+.med-text {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.7rem;
 }
-
 
 /* Navigation bar */
-nav{
-    background-color: white;
-    opacity: 0.8;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+.nav-bar {
+  background-color: white;
+  opacity: 0.8;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
 }
-.nav-bar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 70px;
-}
-.nav-bar ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
 }
 .nav-bar i {
-    cursor: pointer;
+  cursor: pointer;
 }
-.nav-link{
-    text-decoration: none;
-    color: black;
-    opacity: 0.7;
-    font-family: 'Roboto', sans-serif;
+.nav-link {
+  text-decoration: none;
+  color: black;
+  opacity: 0.7;
+  font-family: "Roboto", sans-serif;
 }
-.nav-link:hover{
-    opacity: 1;
+.nav-link:hover {
+  opacity: 1;
 }
 
-/* Top contents */
-.top-container{
-    background: url(images/startframe.jpeg) no-repeat center center/cover;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.nav-link:hover .dropdown-menu {
+  display: flex;
 }
-.large-content{
-    width: 600px;
-    text-align: center;
-    padding-top: 3rem;
-    cursor: pointer;
+/* dropdown menu */
+.dropdown-menu {
+  width: 100%;
+  display: none;
+  gap: 7rem;
+  padding: 2rem 29rem;
+  font-family: "Roboto", sans-serif;
+}
+.dropdown-column {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown-column ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dropdown-column .dropdown-1-ul {
+  color: #000;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.dropdown-column .dropdown-2-ul {
+  color: #000;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.dropdown-column p {
+  color: #6e6e73;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+/* Top contents */
+.top-container {
+  background: url(images/startframe.jpeg) no-repeat center center/cover;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.large-content {
+  width: 600px;
+  text-align: center;
+  padding-top: 3rem;
+  cursor: pointer;
 }
 /* Second section */
 
-.mac{
-    background: url(images/macbook.jpeg) no-repeat center center/cover;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.mac {
+  background: url(images/macbook.jpeg) no-repeat center center/cover;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .iphone {
-    background: url(images/iphone14.jpeg) no-repeat center center/cover;
-    background-repeat: no-repeat;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  background: url(images/iphone14.jpeg) no-repeat center center/cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 /* Rows */
 .row-text {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.4rem;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
 }
 
-.row-textblack{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 400;
+.row-textblack {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
 }
-.row-textgray{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #6e6e73;
+.row-textgray {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #6e6e73;
 }
-.vr-logo{
-    width: 200px;
+.vr-logo {
+  width: 200px;
 }
-.tradein-img{
-    width: 150px;
+.tradein-img {
+  width: 150px;
 }
-.card-logo{
-    width: 110px;
+.card-logo {
+  width: 110px;
 }
 
-.rows{
-    display: flex;
-    height: 65vh;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    gap: 1rem;
+.rows {
+  display: flex;
+  height: 65vh;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  gap: 1rem;
 }
-.row1{
-    background: url(images/iphone14black.jpeg) no-repeat center center/cover;
-    margin-left: 1rem;
-    padding-top: 1rem;
-    flex: 1;
-    text-align: center;
+.row1 {
+  background: url(images/iphone14black.jpeg) no-repeat center center/cover;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  flex: 1;
+  text-align: center;
 }
-.row2{
-    background: url(images/ipad.jpeg) no-repeat center center/cover;
-    margin-right: 1rem;
-    padding-top: 1rem;
-    flex: 1;
-    text-align: center;
+.row2 {
+  background: url(images/ipad.jpeg) no-repeat center center/cover;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  flex: 1;
+  text-align: center;
 }
-.row3{
-    background: url(images/watch.jpeg) no-repeat center center/cover;
-    margin-left: 1rem;
-    padding-top: 1rem;
-    flex: 1;
-    text-align: center;
+.row3 {
+  background: url(images/watch.jpeg) no-repeat center center/cover;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  flex: 1;
+  text-align: center;
 }
-.row4{
-    background: url(images/virtualr.jpeg) no-repeat center center/cover;
-    margin-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-    text-align: center;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    
+.row4 {
+  background: url(images/virtualr.jpeg) no-repeat center center/cover;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 }
-.row5{
-    background: url(images/tradeinpromo.jpeg) no-repeat center center/cover;
-    margin-left: 1rem;
-    padding-top: 1rem;
-    flex: 1;
-    text-align: center;
+.row5 {
+  background: url(images/tradeinpromo.jpeg) no-repeat center center/cover;
+  margin-left: 1rem;
+  padding-top: 1rem;
+  flex: 1;
+  text-align: center;
 }
 .row6 {
-    background: url(images/creditcard.jpeg) no-repeat center center/cover;
-    margin-right: 1rem;
-    padding-top: 1rem;
-    flex: 1;
-    text-align: center;
+  background: url(images/creditcard.jpeg) no-repeat center center/cover;
+  margin-right: 1rem;
+  padding-top: 1rem;
+  flex: 1;
+  text-align: center;
+}
+
+.show{
+  display: flex;
 }
